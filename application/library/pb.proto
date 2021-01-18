@@ -1,0 +1,15 @@
+syntax='proto3';
+package demo.protobuf;
+
+// 协议号-500
+message Error {
+    uint32 code = 1;// 错误码
+    string msg = 2;// 错误描述
+}
+
+// 协议号-1001
+message PacketHello {
+    string name = 1;
+    int32 user_id = 2;
+    repeated string labels = 3;
+}

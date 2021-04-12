@@ -13,15 +13,15 @@ namespace Handler;
 
 use Module;
 use Kovey\Tcp\Handler\HandlerAbstract;
-use Kovey\Container\Event\Redis;
 use Demo\Protobuf\PacketHello;
+use Kovey\Container\Event\Protocol;
 
 class Hello extends HandlerAbstract
 {
     #[Module\Hello]
     private $hello;
 
-    #[Redis('master')]
+    #[Protocol(1001, PacketHello::class)]
     public function world(PacketHello $packet, int $fd) : Array
     {
         return $this->hello->world($packet, $fd);

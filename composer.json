@@ -24,11 +24,14 @@
         "kovey/redis": "^1.0",
         "kovey/connection": "^1.1",
         "kovey/sharding": "^1.1",
-        "kovey/tcp-server": "^2.0",
-        "kovey/rpc-server": "^2.1",
+        "kovey/tcp-server": "^3.0",
+        "kovey/rpc-server": "^3.0",
         "kovey/logger": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "files": ["application/Bootstrap.php"]
     }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a92f9f3088470ece9f2b230ce738ebbc",
+    "content-hash": "81293b499b62c4c39800ef466c99f24d",
     "packages": [
         {
             "name": "kovey/app",
@@ -335,16 +335,16 @@
         },
         {
             "name": "kovey/logger",
-            "version": "v2.0.1",
+            "version": "v2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kovey/logger.git",
-                "reference": "2ae58fc1987e4c8ef8e7ac2dad83b2445ff8df72"
+                "reference": "db48f62ae8c72f9527816d641ded5d7daf341017"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kovey/logger/zipball/2ae58fc1987e4c8ef8e7ac2dad83b2445ff8df72",
-                "reference": "2ae58fc1987e4c8ef8e7ac2dad83b2445ff8df72",
+                "url": "https://api.github.com/repos/kovey/logger/zipball/db48f62ae8c72f9527816d641ded5d7daf341017",
+                "reference": "db48f62ae8c72f9527816d641ded5d7daf341017",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -384,7 +384,7 @@
                 "logger",
                 "php"
             ],
-            "time": "2021-01-13T04:01:11+00:00"
+            "time": "2021-04-12T15:31:42+00:00"
         },
         {
             "name": "kovey/process",
@@ -666,16 +666,16 @@
         },
         {
             "name": "kovey/tcp-server",
-            "version": "dev-master",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:kovey/tcp.git",
-                "reference": "e67a8d15fbc6b178f22252cce18189e691ede167"
+                "url": "https://github.com/kovey/tcp.git",
+                "reference": "6ed8f2b67c2eccff76ac59ce268ea8cfa7fd332a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kovey/tcp/zipball/e67a8d15fbc6b178f22252cce18189e691ede167",
-                "reference": "e67a8d15fbc6b178f22252cce18189e691ede167",
+                "url": "https://api.github.com/repos/kovey/tcp/zipball/6ed8f2b67c2eccff76ac59ce268ea8cfa7fd332a",
+                "reference": "6ed8f2b67c2eccff76ac59ce268ea8cfa7fd332a",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -720,7 +720,7 @@
                 "php",
                 "tcp"
             ],
-            "time": "2021-04-12T10:10:37+00:00"
+            "time": "2021-04-12T15:59:37+00:00"
         },
         {
             "name": "kovey/validator",
@@ -2939,9 +2939,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "kovey/tcp-server": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
